@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.centered-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+.box1a {
+  margin: 10px;
+}
+.box1a img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.testimony {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+.testimonial-section {
+  padding: 20px;
+  background-color: #fff;
+}
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: relative;
+}
+.marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+.testimony-box {
+  flex: 0 0 auto;
+  width: 500px;
+  margin: 0 15px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.awards {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.awards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.award-card {
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.award-card img {
+  width: 100px;
+  height: auto;
+}
+.management {
+  padding: 20px;
+}
+.management-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.management-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.management-list .inner {
+  padding: 10px;
+  text-align: center;
+}
+.management-list img {
+  width: 150px; /* Fixed width for square */
+  height: 150px; /* Fixed height for square */
+  object-fit: cover; /* Ensure the image covers the square without distortion */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.profile-quote {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+.profile-quote .text {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.profile-quote img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.profile-quote .inf {
+  border-radius: 8px;
+}
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
